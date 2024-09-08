@@ -1,0 +1,28 @@
+/* General Theme Styling */
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: #f9f9f9;
+	color: #333;
+}
+
+h1,
+h2,
+h3 {
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+}
+
+/* Flexbox & Grid system */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}

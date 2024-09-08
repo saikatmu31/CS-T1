@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cart - Grocery Store</title>
+		<link rel="stylesheet" href="../../styles/reset.css" />
+		<link rel="stylesheet" href="../../styles/theme.css" />
+		<link rel="stylesheet" href="../../styles/typography.css" />
+		<link rel="stylesheet" href="./cart.css" />
+	</head>
+	<body>
+		<header id="header"></header>
+		<nav id="navbar"></nav>
+
+		<main>
+			<h1>Your Shopping Cart</h1>
+			<div class="cart-items">
+				<!-- Example Cart Item -->
+				<div class="cart-item">
+					<p>Fresh Apples - 1 lb</p>
+					<p>$2.99</p>
+					<button>Remove</button>
+				</div>
+			</div>
+
+			<div class="cart-summary">
+				<h2>Total: $2.99</h2>
+				<button class="checkout-btn">Checkout</button>
+			</div>
+		</main>
+
+		<footer id="footer"></footer>
+		<script src="../../components/Header.js"></script>
+		<script src="../../components/Navbar.js"></script>
+		<script src="../../components/Footer.js"></script>
+		<script src="./cart.js"></script>
+	</body>
+</html>

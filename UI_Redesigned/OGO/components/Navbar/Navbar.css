@@ -1,0 +1,67 @@
+/* Navigation Styles */
+nav {
+	background-color: #000; /* Black background for the navigation bar */
+	color: white; /* White text color */
+	display: flex; /* Use flexbox for layout */
+	align-items: center; /* Vertically center items */
+	justify-content: center; /* Horizontally center items */
+	height: 65px; /* Height of the navigation bar */
+}
+
+/* Container for navigation content */
+.nav-container {
+	width: 90%; /* Container width */
+	display: flex; /* Flexbox layout */
+	align-items: center; /* Vertically center items */
+	justify-content: space-between; /* Space between logo, nav list, and profile */
+}
+
+/* Logo Styles */
+.logo {
+	font-size: 2rem; /* Font size for the logo */
+	font-weight: bold; /* Bold text for the logo */
+	color: white; /* White text color */
+}
+
+/* Navigation List Styles */
+.nav-list ul {
+	list-style: none; /* Remove default list styling */
+	display: flex; /* Flexbox for horizontal layout */
+	gap: 20px; /* Space between navigation items */
+}
+
+.nav-list ul li a {
+	text-decoration: none; /* Remove underline from links */
+	color: white; /* White text color */
+	font-weight: 700; /* Bold text for navigation links */
+	transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-list ul li a:hover {
+	color: #999; /* Light grey color on hover */
+}
+
+/* Profile Section Styles */
+.profile {
+	display: flex; /* Flexbox for layout */
+	align-items: center; /* Vertically center profile items */
+}
+
+.avatar {
+	background-color: white; /* White background for the avatar */
+	height: 30px; /* Avatar height */
+	width: 30px; /* Avatar width */
+	border-radius: 50%; /* Circular avatar */
+	margin-right: 10px; /* Space between avatar and profile name */
+}
+
+.avatar img {
+	width: 100%; /* Full width of avatar container */
+	height: 100%; /* Full height of avatar container */
+	border-radius: 50%; /* Circular image */
+}
+
+.profile-name {
+	color: white; /* White text color */
+	font-weight: 700; /* Bold text for profile name */
+}

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Div CSS Starts */
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Container CSS Starts */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+    box-shadow: rgb(0, 0, 0) 0px 5px 35px;
+}
+
+.left {
+    max-width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    /* border: 2px solid red; */
+}
+
+.right {
+    width: 60%;
+    padding: 30px;
+    margin-left: 50px;
+    background-color: white;
+}
+
+.left h1 {
+    font-size: 4rem;
+}
+
+.right form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right form h3 {
+    font-size: 18px;
+    padding: 2px;
+    margin: 2px;
+}
+
+.right form input {
+    background-color: transparent;
+    border: transparent;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 12px 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn {
+    margin-top: 10px;
+    border: transparent;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 12px 70px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.btn-submit {
+    background-color: rgba(0, 128, 0, 0.884);
+    color: white;
+
+}
+
+.btn-reset {
+    background-color: rgba(255, 0, 0, 0.884);
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

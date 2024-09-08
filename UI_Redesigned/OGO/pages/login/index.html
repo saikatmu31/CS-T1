@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sign Up</title>
+		<!-- Link to external stylesheet -->
+		<link rel="stylesheet" href="./login.css" />
+		<!-- Google Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="./login.js"></script>
+	</head>
+
+	<body>
+		<!-- Main container for the sign-up page -->
+		<div class="main">
+			<div class="container">
+				<!-- Left section with branding and subtitle -->
+				<div class="left">
+					<h1 class="title">Essentials.</h1>
+					<h2 class="subtitle">Login Now</h2>
+				</div>
+
+				<!-- Right section with the registration form -->
+				<div class="right">
+					<form action="post" method="post" class="form">
+						<!-- Email input -->
+						<label for="email">Email Id</label>
+						<input
+							type="email"
+							name="email"
+							id="email"
+							placeholder="Enter Your Email"
+							required
+						/>
+
+						<!-- Password input -->
+						<label for="password">Password</label>
+						<input
+							type="password"
+							name="password"
+							id="password"
+							placeholder="Enter your Password"
+							required
+						/>
+
+						<!-- Redirect to Signup page -->
+						<div>
+							<p class="login-redirect">
+								Don't have an Account?
+								<a href="../signup/index.html">Sign Up</a>
+							</p>
+						</div>
+						<!-- Buttons for form submission and reset -->
+						<div class="buttons">
+							<button type="submit" class="btn btn-submit">Register</button>
+							<button type="reset" class="btn btn-reset">Reset</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

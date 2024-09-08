@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sign Up</title>
+		<link rel="stylesheet" href="./CSS/style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<div class="main">
+			<div class="container">
+				<div class="left">
+					<h1 class="title">Essentials.</h1>
+					<h2 class="subtitle">Register Now</h2>
+				</div>
+				<div class="right">
+					<form action="post" class="form">
+						<label for="name">Name</label>
+						<input
+							type="text"
+							name="name"
+							id="name"
+							placeholder="Enter Your Name"
+							required
+						/>
+
+						<label for="email">Email Id</label>
+						<input
+							type="email"
+							name="email"
+							id="email"
+							placeholder="Enter Your Email"
+							required
+						/>
+
+						<label for="password">Password</label>
+						<input
+							type="password"
+							name="password"
+							id="password"
+							placeholder="Enter your Password"
+							required
+						/>
+
+						<label for="confirmPassword">Confirm Password</label>
+						<input
+							type="password"
+							name="confirmPassword"
+							id="confirmPassword"
+							placeholder="Confirm your Password"
+							required
+						/>
+
+						<div class="buttons">
+							<button type="submit" class="btn btn-submit">Register</button>
+							<button type="reset" class="btn btn-reset">Reset</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>User Profile</title>
+		<link rel="stylesheet" href="./profile.css" />
+		<link rel="stylesheet" href="../home/home.css" />
+	</head>
+	<body>
+		<!-- Navigation Section -->
+		<nav>
+			<div class="nav-container">
+				<div class="logo" onclick="location.href='/pages/home/index.html'">
+					Essentials.
+				</div>
+
+				<!-- Navigation Menu -->
+				<div class="nav-list">
+					<ul>
+						<li><a href="/pages/home/index.html">Home</a></li>
+						<li><a href="#">Cart</a></li>
+						<li><a href="/pages/profile/index.html">Profile</a></li>
+						<li><a href="#">About Us</a></li>
+					</ul>
+				</div>
+
+				<!-- Profile Section -->
+				<div class="profile">
+					<div class="avatar">
+						<!-- Placeholder for user avatar -->
+					</div>
+					<span class="profile-name">Alfrin</span>
+				</div>
+			</div>
+		</nav>
+
+		<div class="profile-container">
+			<!-- Profile Header -->
+			<div class="profile-header">
+				<img
+				src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNtLnYEqvhKKHET_JzfYOv5hZNV1cngGuY_A&s
+				alt="Profile Picture" />
+				<h1>Alfrein Joseph</h1>
+			</div>
+
+			<!-- Profile Details -->
+			<div class="profile-details">
+				<div class="items">
+					<div>
+						<label for="email">Email:</label>
+						<p id="email">alfrein.j@example.com</p>
+					</div>
+					<div>
+						<label for="phone">Phone:</label>
+						<p id="phone">+1 (555) 123-4567</p>
+					</div>
+					<div>
+						<label for="address">Address:</label>
+						<p id="address">123 Main Street, Anytown, Chennai</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Edit Button -->
+			<div class="btn">
+				<a href="edit-profile.html" class="btn-edit">Edit Profile</a>
+			</div>
+		</div>
+	</body>
+</html>

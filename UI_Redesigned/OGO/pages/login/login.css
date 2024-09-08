@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+/* Main Container Styles */
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: #f5f7fa;
+	padding: 20px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	height: 75%;
+	max-width: 1200px;
+	background-color: #fff;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+/* Left Section */
+.left {
+	flex: 1;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	color: white;
+}
+
+.left .title {
+	font-size: 3rem;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.left .subtitle {
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+/* Right Section */
+.right {
+	flex: 1.5;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* Form Styles */
+.form label {
+	font-weight: 600;
+	margin-bottom: 8px;
+	color: #333;
+}
+
+.form input {
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	border: 1px solid #ddd;
+	background-color: #f9f9f9;
+	font-size: 1rem;
+	outline: none;
+	transition: all 0.3s ease;
+}
+
+.form input:focus {
+	border-color: #007bff;
+	box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Buttons */
+.buttons {
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+}
+
+.btn {
+	margin-top: 20px;
+	flex: 1;
+	padding: 12px;
+	border: none;
+	border-radius: 5px;
+	font-weight: 600;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.btn-submit {
+	color: #28a745;
+	/* color: white; */
+}
+
+.btn-submit:hover {
+	background-color: #218838;
+	color: white;
+}
+
+.btn-reset {
+	color: #dc3545;
+}
+
+.btn-reset:hover {
+	color: white;
+	background-color: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+	.container {
+		flex-direction: column;
+	}
+
+	.left {
+		padding: 20px;
+	}
+
+	.right {
+		padding: 20px;
+	}
+
+	.buttons {
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,6 @@
+drop table login;
+create table Login(customerId int primary key, lastLogin Date not null, lastLogout Date not null, updatedPassword varchar(100) not null, oldPassword varchar(100) not null, is_now_logged_in varchar(2) not null);
+desc Login;
+drop table Registration;
+create table Registration(customerId int primary key, customerName varchar(100) not null, email varchar(100) not null, password varchar(100) not null, address varchar(100) not null, contact int not null);
+desc Registration;

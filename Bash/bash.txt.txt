@@ -1,0 +1,26 @@
+rm -rf products
+mkdir products
+ls
+cd products
+touch grocery.txt
+
+echo "1,Potato,70
+2,Onion,80
+3,Spinach,10
+4,Carrot,80
+5,Beans,12
+6,Tomato,8
+">>grocery.txt
+
+cat grocery.txt
+
+sort -t ',' -k2,2 grocery.txt > sorted_groceries.txt
+
+cat sorted_groceries.txt
+
+# awk '{gsub(/Onion/,"Beetroot"); print}' grocery.txt > replace_groceries.txt
+awk '{gsub(/Onion/, "banana"); print}' grocery.txt > latest_fruits.txt
+
+grep -i "Tom" grocery.txt
+
+# cat replace_groceries.txt
